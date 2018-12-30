@@ -1,6 +1,7 @@
+# for realtime prediction
+
 from bs4 import BeautifulSoup
 from selenium import webdriver
-
 
 def get_data():
     browse = webdriver.Firefox(executable_path='./geckodriver')
